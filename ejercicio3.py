@@ -9,6 +9,8 @@ Crea algunos productos
 Prueba a mostrar los datos de algun producto y a modificar algun valor, por ejemplo, prueba a modificar el precio de un producto
 '''
 
+#Creación
+
 class Producto():
    
     def __init__(self, codigo, nombre, precio, tipo):
@@ -16,9 +18,13 @@ class Producto():
         self.nombre = nombre
         self.precio = precio
         self.tipo = tipo
-        print('El constructor se ha creado con éxito.')
+        print('\nEl producto se ha creado con éxito.')
 
     def __str__(self):
+        return '\n El producto con código {} y nombre {} tiene un precio de {} y es del tipo {}.'.format(self.codigo,  self.nombre, self.precio, self.tipo)
 
 #Experimentación
+
+producto1=Producto('NH87616', 'Cepillo de dientes', '3€', 'manual')
+print(producto1)
 
