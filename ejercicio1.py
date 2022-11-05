@@ -11,3 +11,12 @@ Crea algunos alumnos
 Prueba a ejecutar el método calificacion de cada objeto que has creado
 """
 
+class Alumno():
+
+    def __init__(self, nombre, nota):
+        self.nombre=nombre
+        self.nota= nota
+        print('El alumno se ha creado con éxito.')
+
+    def calificacion():
+        
