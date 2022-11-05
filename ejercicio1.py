@@ -24,4 +24,8 @@ class Alumno():
         else:
             print('{} ha suspendido con un {}'.format(self.nombre, self.nota))
 
+alumno1=Alumno('David', 8)
+Alumno.calificacion(alumno1)
+alumno2=Alumno('Victor', 4)
+Alumno.calificacion(alumno2)
         
