@@ -29,9 +29,9 @@ class Alumno():
             return print('\n{} ha suspendido con un {}.'.format(self.nombre, self.nota))
 
 #Experimentación
-alumno1=Alumno('David', 8)
-Alumno.calificacion(alumno1)
-alumno2=Alumno('Victor', 4)
-Alumno.calificacion(alumno2)
 print(alumno1)
 print(alumno2)
+alumno1=Alumno('David', 8)
+alumno2=Alumno('Victor', 4)
+Alumno.calificacion(alumno1)
+Alumno.calificacion(alumno2)
