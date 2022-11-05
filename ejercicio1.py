@@ -18,5 +18,10 @@ class Alumno():
         self.nota= nota
         print('El alumno se ha creado con éxito.')
 
-    def calificacion():
+    def calificacion(self):
+        if self.nota < 5:
+            print('{} ha aprobado con un {}'.format(self.nombre, self.nota))
+        else:
+            print('{} ha suspendido con un {}'.format(self.nombre, self.nota))
+
         
