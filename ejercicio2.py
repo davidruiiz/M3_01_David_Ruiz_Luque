@@ -19,8 +19,11 @@ class Alumno():
         self.nota= nota
         print('El alumno se ha creado con éxito.')
 
+    def __str__(self):
+        return 'Lo que quiero mostrar'
+
     def calificacion(self):
         if self.nota < 5:
-            print('\n{} ha aprobado con un {}'.format(self.nombre, self.nota))
+            return print('\n{} ha aprobado con un {}'.format(self.nombre, self.nota))
         else:
-            print('\n{} ha suspendido con un {}'.format(self.nombre, self.nota))
+            return print('\n{} ha suspendido con un {}'.format(self.nombre, self.nota))
