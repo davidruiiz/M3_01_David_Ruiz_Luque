@@ -20,10 +20,18 @@ class Alumno():
         print('El alumno se ha creado con éxito.')
 
     def __str__(self):
-        return 'Lo que quiero mostrar'
+        return 'El alumno {}, ha sacado un {}'.format(self.nombre, self.nota)
 
     def calificacion(self):
-        if self.nota < 5:
+        if self.nota >= 5:
             return print('\n{} ha aprobado con un {}'.format(self.nombre, self.nota))
         else:
             return print('\n{} ha suspendido con un {}'.format(self.nombre, self.nota))
+
+#Experimentación
+alumno1=Alumno('David', 8)
+Alumno.calificacion(alumno1)
+alumno2=Alumno('Victor', 4)
+Alumno.calificacion(alumno2)
+print(alumno1)
+print(alumno2)
