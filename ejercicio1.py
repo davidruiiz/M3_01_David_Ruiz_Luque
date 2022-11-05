@@ -20,9 +20,9 @@ class Alumno():
 
     def calificacion(self):
         if self.nota < 5:
-            print('{} ha aprobado con un {}'.format(self.nombre, self.nota))
+            print('\n{} ha aprobado con un {}'.format(self.nombre, self.nota))
         else:
-            print('{} ha suspendido con un {}'.format(self.nombre, self.nota))
+            print('\n{} ha suspendido con un {}'.format(self.nombre, self.nota))
 
 alumno1=Alumno('David', 8)
 Alumno.calificacion(alumno1)
