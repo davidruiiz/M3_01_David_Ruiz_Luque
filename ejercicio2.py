@@ -11,3 +11,16 @@ Crea algun objeto de la clase Alumno
 Realiza print de esos objetos para visualizar por pantalla la información del str
 '''
 
+#Creación
+class Alumno():
+
+    def __init__(self, nombre, nota):
+        self.nombre=nombre
+        self.nota= nota
+        print('El alumno se ha creado con éxito.')
+
+    def calificacion(self):
+        if self.nota < 5:
+            print('\n{} ha aprobado con un {}'.format(self.nombre, self.nota))
+        else:
+            print('\n{} ha suspendido con un {}'.format(self.nombre, self.nota))
