@@ -17,10 +17,10 @@ class Alumno():
     def __init__(self, nombre, nota):
         self.nombre = nombre
         self.nota = nota
-        print('El alumno se ha creado con éxito.')
+        print('\nEl alumno se ha creado con éxito.')
 
     def __str__(self):
-        return 'El alumno {}, ha sacado un {}'.format(self.nombre, self.nota)
+        return '\nEl alumno {}, ha sacado un {}'.format(self.nombre, self.nota)
 
     def calificacion(self):
         if self.nota >= 5:
