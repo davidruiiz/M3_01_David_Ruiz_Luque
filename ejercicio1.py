@@ -11,6 +11,7 @@ Crea algunos alumnos
 Prueba a ejecutar el método calificacion de cada objeto que has creado
 """
 
+#Creación
 class Alumno():
 
     def __init__(self, nombre, nota):
@@ -24,6 +25,7 @@ class Alumno():
         else:
             print('\n{} ha suspendido con un {}'.format(self.nombre, self.nota))
 
+#Experimentación
 alumno1=Alumno('David', 8)
 Alumno.calificacion(alumno1)
 alumno2=Alumno('Victor', 4)
