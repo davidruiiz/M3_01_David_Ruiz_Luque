@@ -21,13 +21,13 @@ class Producto():
         print('\nEl producto se ha creado con éxito.')
 
     def __str__(self):
-        return 'El producto con código {} y nombre "{}" tiene un precio de {} y es del tipo {}.\n'.format(self.codigo,  self.nombre, self.precio, self.tipo)
+        return 'El producto con código {} y nombre "{}" tiene un precio de {}€ y es del tipo {}.\n'.format(self.codigo,  self.nombre, self.precio, self.tipo)
 
 #Experimentación
 
-producto1=Producto('NH87616', 'Cepillo de dientes', '3€', 'manual')
+producto1=Producto('NH87616', 'Cepillo de dientes', 3, 'manual')
 print(producto1)
-producto2=Producto('VB001-2', 'ordenador', '600€', 'portátil')
+producto2=Producto('VB001-2', 'ordenador', 600, 'portátil')
 print(producto2)
 
 self.precio[producto2]='200'
