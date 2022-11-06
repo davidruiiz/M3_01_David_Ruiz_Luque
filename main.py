@@ -1,6 +1,6 @@
-from ejercicio1 import Alumno
-from ejercicio2 import Alumno
-
-
-if '__name__'== '__main__':
-    Alumno()
+print('\n==EJERCICIO 1==')
+import ejercicio1
+print('\n==EJERCICIO 2==')
+import ejercicio2
+print('\n==EJERCICIO 3==')
+import ejercicio3

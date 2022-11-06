@@ -36,3 +36,7 @@ print(alumno1)
 print(alumno2)
 Alumno.calificacion(alumno1)
 Alumno.calificacion(alumno2)
+
+
+if __name__=='__main__':
+    main()

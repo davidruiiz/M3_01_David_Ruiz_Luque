@@ -31,3 +31,6 @@ Alumno.calificacion(alumno1)
 alumno2=Alumno('Victor', 4)
 Alumno.calificacion(alumno2)
         
+
+if __name__=='__main__':
+    main()
