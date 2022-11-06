@@ -30,5 +30,9 @@ print(producto1)
 producto2=Producto('VB001-2', 'ordenador', 600, 'portátil')
 print(producto2)
 
-self.precio[producto2]='200'
+print('\n=OFERTA EN EL PRODUCTO 2==') #modificamos el precio
+producto2.precio=200
 print(producto2)
+
+if __name__=='__main__':
+    main()
